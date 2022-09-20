@@ -21,3 +21,7 @@
     background-size: contain;
     height: 200px;
 }
+
+nav.menor{
+    cursor: pointer;
+}

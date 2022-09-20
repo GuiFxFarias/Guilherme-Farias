@@ -55,3 +55,11 @@ function sairg(){
     e.style.height = '25px'
     e.style.width = '25px'
 }
+function entrar(){
+    document.querySelector('.menor').style.opacity = "0.5";
+    document.querySelector('.menor').style.transition = "all 0.3s"
+    
+}
+function sair(){
+    document.querySelector('.menor').style.opacity = "1";
+}
