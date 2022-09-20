@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Farias | Desenvolvedor Web</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style-mobmenu.css">
+    <style>
+        .container{
+            height: 5px;
+            display: flex;
+
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .chield{
+            display: inline-block;
+            width: 50%;
+            height: 150px;
+            margin: 0px 10px;
+        }
+        #n1{
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            background-size: cover;
+            background-image:url("Github/icone.png");
+            
+        }
+
+        #n2{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            background-size: cover;
+            background-image:url("Insta/apple-touch-icon.png");
+        }
+        #n3{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            background-size: cover;
+            background-image: url("Linkedin/lin-icone.png");
+
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div>
+                <h1>Guilherme Henrique Andrade Farias</h1>
+            </div>
+            <div id="nav-list">
+                <ul>
+                    <li class="item-list">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#">Certificados</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="#">Fale comigo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="botao">
+                <button onclick="menuShow()">
+                    <img class="icon" src="menu_white_36dp.svg" alt="">
+                </button>
+            </div>
+        </nav>
+
+
+        <div class="menu-mobile">
+            <ul>
+                <li class="item-list">
+                    <a href="#">Home</a>
+                </li>
+                <li class="item-list">
+                    <a href="#">Certificados</a>
+                </li>
+                <li class="item-list">
+                    <a href="#">Fale comigo</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        
+        <a href="https://github.com/GuiFxFarias" target="_blank">
+            <div class="chield" id="n1" onmouseenter="entrarg()" onmouseleave="sairg()"></div>
+        </a>
+    
+        <a href="https://www.instagram.com/gui_hfarias/?theme=dark" target="_blank" id="insta">
+            <div class="chield" id="n2" onmouseenter="entrari()" onmouseleave="sairi()"></div>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/guilherme-farias-989300179/" target="_blank" id="lin">
+            <div class="chield" id="n3" onmouseenter="entrarl()" onmouseleave="sairl()"></div>
+        </a>
+    
+    </div>
+    <body>
+        <div id="txt">
+            <img src="imagens/Gui-menor.png" alt="Guilherme Farias" id="guilherme">
+            <p>Olá, <br> eu sou o Guilherme Farias, sou um <strong>Desenvolvedor Web Júnior (Front-End).</strong> Moro em Sertãozinho, SP. </p>
+            <p id="t2">Eu estou entrando na área de desenvolvimento web com grandes expectativas e grande empolgação. Uma pessoa dedicada e disciplinada com seus objetivos em busca de sonhos e realizações profissionais. Trabalho com desenvolvimento web especializado em HTML5, CSS3 e Js.</p>
+        </div>
+    </body>
+    
+    <script src="script2.js"></script>
+    <script src="mobmenu-script.js"></script>
+</body>
+</html>
