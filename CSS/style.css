@@ -25,6 +25,10 @@ a:hover{
     transition-duration: 0.5s;
 }
 
+#nav-bar div h1{
+    font-family: var(--fontpadrao);
+}
+
 body{
     margin: 0px;
     background-color: black;
@@ -36,25 +40,6 @@ header{
     background-color: #000F42;
     border-bottom: 1px solid white;
     margin-bottom: 30px;
-}
-
-header > div{
-    padding: 5px;
-}
-
-header > div > p{
-    font-family: var(--fontpadrao);
-    display: inline-block;
-    padding: 0px 5px;
-    margin: 0px;
-}
-
-header > div > h2{
-    font-size: calc(1em + 1.6vw);
-    text-align: right;
-    padding-right: 10px;
-    margin: 0px;
-    font-family: var(--fontpadrao2);
 }
 
 body > div#txt{
