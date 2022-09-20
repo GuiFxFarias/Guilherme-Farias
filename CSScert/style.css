@@ -12,5 +12,12 @@
     width: 40%;
     height: 200px;
     margin: 0px 10px;
-    border: 1px solid white;
+    background-size: cover;
+}
+
+#cert1{
+    background-image: url("../imagens/certificado-img.png");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
 }
