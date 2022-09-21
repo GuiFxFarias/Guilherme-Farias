@@ -17,9 +17,10 @@
 
 #cert1{
     background-image: url("../imagens/certificado-img.png");
-    background-position: center;
-    background-size: contain;
-    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 nav.menor{
