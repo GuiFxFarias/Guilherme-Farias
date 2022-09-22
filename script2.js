@@ -91,16 +91,3 @@ function entrar4(){
 function sair4(){
     document.getElementById('cor4').style.opacity = "1";
 }
-
-const box = document.getElementById('cor');
-const img = document.getElementById('cert1');
-
-box.addEventListener("click", () => {
-    
-})
-
-
-box.addEventListener("mouseleave", () => {
-
-    
-})
