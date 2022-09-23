@@ -16,13 +16,15 @@
     max-height: 37%;
     margin: 0px 10px;
     background-size: contain;
+
 }
+
 
 #cert1{
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 210px;
 }
 
 nav.menor{
@@ -56,4 +58,23 @@ nav.menor{
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    body > div#txt{
+        height: 1500px;
+        background-color: rgba(255, 255, 255, 0.093);
+    }
+
+    .menor{
+        display: inline-block;
+        width: 100%;
+        max-width: 80%;
+        height: 10%;
+        margin: 0px 10px;
+        background-size: contain;
+    }
+    #cert1{
+        width: 70%;
+    }
 }
