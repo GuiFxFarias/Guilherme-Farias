@@ -62,7 +62,7 @@ nav.menor{
 
 @media screen and (max-width: 750px) {
     body > div#txt{
-        height: 1500px;
+        height: 1200px;
         background-color: rgba(255, 255, 255, 0.093);
     }
 
@@ -70,7 +70,7 @@ nav.menor{
         display: inline-block;
         width: 100%;
         max-width: 80%;
-        height: 10%;
+        height: 20%;
         margin: 0px 10px;
         background-size: contain;
     }
