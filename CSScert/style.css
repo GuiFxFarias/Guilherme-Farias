@@ -27,6 +27,11 @@
     height: 210px;
 }
 
+#cert1:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
 nav.menor{
     cursor: pointer;
 }

@@ -55,39 +55,3 @@ function sairg(){
     e.style.height = '25px'
     e.style.width = '25px'
 }
-function entrar(){
-    document.getElementById('cor').style.opacity = "0.5";
-    document.getElementById('cor').style.transition = "all 0.3s"
-    
-    
-}
-function sair(){
-    document.getElementById('cor').style.opacity = "1";
-}
-function entrar2(){
-    document.getElementById('cor2').style.opacity = "0.5";
-    document.getElementById('cor2').style.transition = "all 0.3s"
-    
-    
-}
-function sair2(){
-    document.getElementById('cor2').style.opacity = "1";
-}
-function entrar3(){
-    document.getElementById('cor3').style.opacity = "0.5";
-    document.getElementById('cor3').style.transition = "all 0.3s"
-    
-    
-}
-function sair3(){
-    document.getElementById('cor3').style.opacity = "1";
-}
-function entrar4(){
-    document.getElementById('cor4').style.opacity = "0.5";
-    document.getElementById('cor4').style.transition = "all 0.3s"
-    
-    
-}
-function sair4(){
-    document.getElementById('cor4').style.opacity = "1";
-}
